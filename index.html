@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="restaurant ui app">
+    <meta name="keywords" content="resturant, ui, front-end, html, css, javascript">
+    <meta name="author" content="Maxim Dudai">
+
+    <!-- font-awesome v5 -->
+    <script src="https://kit.fontawesome.com/95003e81f5.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="./style/style.css">
+
+    <title>Document</title>
+</head>
+<body>
+    
+    <section class="restaurant-app">
+        <div class="container">
+            <div class="banner-part"></div>
+
+            <!-- page nav-bar -->
+            <div class="navbar">
+                <nav class="page-navbar">
+                    <div class="nav-bar-content">
+                        <!-- page logo -->
+                        <div class="nav-logo">
+                            <p id="logo-content">restaurant <span id="logo-dot">.</span></p>
+                        </div>
+                        
+                        <!-- page links -->
+                        <div class="nav-links">
+                            <a href="#">home</a>
+                            <a href="#">about</a>
+                            <a href="#">menu</a>
+
+                            <a href="#" id="down-menu-link">blog 
+                                <i id="arrow-menu" class="fa fa-angle-down" aria-hidden="true"></i>
+                                <div class="hidden-menu">
+                                    <a href="#">blog</a>
+                                    <a href="#">single blog</a>
+                                </div>
+                            </a>
+                            
+                            <a href="#" id="down-menu-link-pages">pages 
+                                <i id="arrow-menu" class="fa fa-angle-down" aria-hidden="true"></i>
+                                
+                                <div class="hidden-menu-elements">
+                                    <a href="#">elements</a>
+                                </div>
+                            </a>
+                            <a href="#">contact</a>
+                        </div>
+                        
+                        <!-- page social-media -->
+                        <div class="nav-social">
+                            <div class="facebook"><i class="fa fa-facebook-square" aria-hidden="true"></i></div>
+                            <div class="instagram"><i class="fa fa-instagram" aria-hidden="true"></i></div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+
+            <!-- page index content -->
+            <div class="index-content">
+                <div class="content">
+                    <div class="small-title">
+                        <h5>Expensive But The <span id="best">Best</span></h5>
+                    </div>
+                    <div class="big-title">
+                        <h1>
+                            Modern restaurant in <br />
+                            center of the city
+                        </h1>
+                    </div>
+                    <div class="book-table">
+                        <button type="submit">Book A Table</button>
+                    </div>
+                </div>
+
+
+                <!-- about us -->
+                <div class="about-us-info">
+                    
+                    <div class="about-us-content">
+                        <div class="text-info">
+                            <p id="about-us-title">About us</p>
+                            <h2>Delicious food provider<br/><span id="exist-since">since 1990</span></h2>
+                            <p id="history">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea ratione iusto explicabo voluptatum animi natus sint quidem, pariatur culpa officiis.</p>
+                            <button type="submit">Learn More</button>
+                        </div>
+
+                        <div class="photo-demo">
+                            <img src="https://i2-prod.manchestereveningnews.co.uk/incoming/article17872387.ece/ALTERNATES/s1200b/0_EN_050320_Nandos_is_hiring_staff_Walkden_restaurant_17872329.jpg" alt="burger-photo" id="about-us-photo">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <script src="./script/restaurant.js"></script>
+</body>
+</html>
